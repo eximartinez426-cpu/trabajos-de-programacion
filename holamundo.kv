@@ -1,0 +1,20 @@
+# holamundo.kv
+
+# Empieza con el nombre de la clase raíz de Python (sin los paréntesis)
+<ContenedorPrincipal>:
+    orientation: 'vertical'
+
+    # Widget de Texto
+    Label:
+        text: '¡Hola, Kivy en Visual Studio Code!'
+        font_size: '40sp'
+        color: 0, 1, 0, 1 # Color verde
+        size_hint_y: 0.8 
+
+    # Widget de Botón
+    Button:
+        text: '¡Cierra la App!'
+        font_size: '20sp'
+        background_color: 1, 0, 0, 1 # Color rojo
+        size_hint_y: 0.2
+        on_press: app.stop() # Cierra la app al hacer click
