@@ -9,7 +9,7 @@ from kivy.config import Config
 # Esto es opcional, pero ayuda a que Kivy no se inicie en modo pantalla completa 
 # y puedas ver mejor la ventana de prueba en tu Chromebook.
 Config.set('graphics', 'width', '300')
-Config.set('graphics', 'height', '300')
+Config.set('graphics', 'height', '400')
 
 
 # 1. Definir el Widget Raíz (la interfaz)
